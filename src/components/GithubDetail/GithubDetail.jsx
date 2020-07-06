@@ -67,7 +67,7 @@ function GithubDetail(props) {
           type="text"
           name="username"
           id="username"
-          
+          onChange={(event) => setUsername(event.target.value)}
           onKeyPress={handleKeyPress}
         />
       </form>
