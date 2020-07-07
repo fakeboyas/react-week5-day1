@@ -61,7 +61,7 @@ function GithubDetail(props) {
 
   return (
     <div>
-      <form onSubmit={handleKeyPress}>
+      <form>
         <Input
           placeholder="Type a username and press Enter"
           type="text"
